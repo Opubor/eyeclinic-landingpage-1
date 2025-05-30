@@ -13,6 +13,7 @@ import {
 } from "react-icons/md";
 import Link from "next/link";
 import {
+  FaBullseye,
   FaCheckDouble,
   FaClock,
   FaHandHoldingHeart,
@@ -44,8 +45,8 @@ function HeaderSwiper() {
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
             >
-              <h1 className="text-darkblue bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
-                See Clearly, Live Fully
+              <h1 className="text-darkblue flex justify-start items-start gap-2 bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
+                See Clearly, Live Fully <FaCheckDouble />
               </h1>
               <p className="text-sm lg:text-lg my-8 bg-darkblue text-white p-2 lg:p-4 w-full">
                 Comprehensive eye care that prioritizes your vision — from
@@ -70,7 +71,7 @@ function HeaderSwiper() {
               </div>
 
               <div className="text-darkblue mt-8 bg-white/85 p-2 lg:p-4">
-                <h1 className="underline underline-offset-2 uppercase mb-2">
+                <h1 className="underline underline-offset-2 uppercase mb-2 font-extrabold text-lg lg:text-2xl tracking-tighter">
                   Contact us
                 </h1>
                 <p className="flex justify-start items-center gap-2 text-sm">
@@ -125,8 +126,8 @@ function HeaderSwiper() {
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
             >
-              <h1 className="text-darkblue bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
-                See Clearly, Live Fully
+              <h1 className="text-darkblue flex justify-start items-start gap-2 bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
+                See Clearly, Live Fully <FaCheckDouble />
               </h1>
               <p className="text-sm lg:text-lg my-8 bg-darkblue text-white p-2 lg:p-4 w-full">
                 Comprehensive eye care that prioritizes your vision — from
@@ -206,8 +207,8 @@ function HeaderSwiper() {
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
             >
-              <h1 className="text-darkblue bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
-                See Clearly, Live Fully
+              <h1 className="text-darkblue flex justify-start items-start gap-2 bg-white/85 p-2 lg:p-4 text-2xl lg:text-5xl font-bold w-full tracking-tighter">
+                See Clearly, Live Fully <FaCheckDouble />
               </h1>
               <p className="text-sm lg:text-lg my-8 bg-darkblue text-white p-2 lg:p-4 w-full">
                 Comprehensive eye care that prioritizes your vision — from
