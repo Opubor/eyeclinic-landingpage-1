@@ -7,8 +7,8 @@ import { MdMemory } from "react-icons/md";
 
 function WhyChooseUs() {
   return (
-    <div className="px-2 lg:px-12 xl:px-32 bg-[url('/pic13.jpg')] bg-center bg-cover flex flex-col xl:flex-row justify-between items-center gap-6 py-8">
-      <div className="w-full lg:w-6/12 flex flex-col justify-center items-start gap-4">
+    <div className="px-2 lg:px-12 xl:px-32 bg-[linear-gradient(to_right_top,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/pic39.jpg')] bg-center bg-cover flex flex-col xl:flex-row justify-between items-center gap-6 py-8">
+      <div className="w-full lg:w-6/12 flex flex-col justify-center items-start gap-4 text-white">
         {/* <h1 className="font-bold">Oakview Center</h1> */}
         <h2 className="tracking-tighter text-2xl lg:text-4xl font-bold">
           Why Choose Us

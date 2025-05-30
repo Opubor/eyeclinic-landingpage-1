@@ -10,16 +10,16 @@ import { IoMdClose } from "react-icons/io";
 function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
   return (
-    <div className="bg-white py-4 w-full flex justify-between items-center px-2 lg:px-12 xl:px-32 fixed left-0 right-0 top-0 z-50 border-b-4 border-blue">
-      <Link href={"/"} className="flex justify-start items-center gap-2">
+    <div className="bg-white py-2 lg:py-4 w-full flex justify-between items-center px-2 lg:px-12 xl:px-32 fixed left-0 right-0 top-0 z-50 border-b-4 border-blue">
+      <Link href={"/"} className="flex justify-start items-center">
         <Image
-          src={"/logo1.png"}
+          src={"/logo3.jpg"}
           height={3000}
           width={3000}
           alt="logo"
-          className="w-8 h-8"
+          className="w-12 h-12"
         />
-        <span className="text-lg lg:text-xl font-bold tracking-tighter">
+        <span className="text-lg lg:text-xl font-extrabold tracking-tighter">
           {hospitalName}
         </span>
       </Link>

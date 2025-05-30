@@ -1,4 +1,4 @@
-const hospitalName = "[Clinic Name]";
+const hospitalName = "Abelo Eye Clinic";
 
 const navlinks = [
   { id: 0, name: "Home", link: "/" },
@@ -61,17 +61,22 @@ const services = [
 
 const staffs = [
   { id: 0, url: "/pic6.jpg", name: "Dr. James Maxwell", role: "Doctor" },
-  { id: 1, url: "/pic7.jpg", name: "Dr. Catherine May", role: "Cardiologist" },
+  { id: 1, url: "/pic7.jpg", name: "Dr. Catherine May", role: "Opthamologist" },
   { id: 2, url: "/pic8.jpg", name: "Dr. David Victory", role: "Optometrist" },
-  { id: 3, url: "/pic9.jpg", name: "Dr. Sandra Omoko", role: "Dentist" },
-  { id: 4, url: "/pic10.jpg", name: "Dr. Hannah Victor", role: "Nurse" },
-  { id: 5, url: "/pic11.jpg", name: "Dr. Matthew Glory", role: "Nurse" },
-  { id: 6, url: "/pic8.jpg", name: "Dr. Roy Judith", role: "Dermatologist" },
-  { id: 7, url: "/pic7.jpg", name: "Dr. Juliet Osato", role: "Doctor" },
-  { id: 8, url: "/pic6.jpg", name: "Dr. Divine Bimbo", role: "Doctor" },
-  { id: 9, url: "/pic10.jpg", name: "Dr. Ejike Ebube", role: "Doctor" },
-  { id: 10, url: "/pic11.jpg", name: "Dr. Jennifer Chopra", role: "Doctor" },
-  { id: 11, url: "/pic9.jpg", name: "Dr. Chika TJ", role: "Doctor" },
+  { id: 3, url: "/pic9.jpg", name: "Dr. Sandra Omoko", role: "Opthamologist" },
+  {
+    id: 4,
+    url: "/pic10.jpg",
+    name: "Dr. Hannah Victor",
+    role: "Opthamologist",
+  },
+  { id: 5, url: "/pic11.jpg", name: "Dr. Matthew Glory", role: "Optometrist" },
+  { id: 6, url: "/pic8.jpg", name: "Dr. Roy Judith", role: "Optometrist" },
+  { id: 7, url: "/pic7.jpg", name: "Dr. Juliet Osato", role: "Optometrist" },
+  { id: 8, url: "/pic6.jpg", name: "Dr. Divine Bimbo", role: "Optometrist" },
+  { id: 9, url: "/pic10.jpg", name: "Dr. Ejike Ebube", role: "Nurse" },
+  { id: 10, url: "/pic11.jpg", name: "Dr. Jennifer Chopra", role: "Nurse" },
+  { id: 11, url: "/pic9.jpg", name: "Dr. Chika TJ", role: "Nurse" },
 ];
 
 const blog = [
@@ -80,7 +85,7 @@ const blog = [
     day: "19",
     month: "MAR",
     year: "2022",
-    picture: "/pic1.jpg",
+    picture: "/pic27.jpg",
     title: "5 Signs You Should See a Doctor Sooner Than Later",
     paragraph1:
       "Many people delay visiting a doctor, hoping symptoms will pass. While some discomforts are harmless, others may signal something serious. Knowing when to act can make a big difference.",
@@ -98,7 +103,7 @@ const blog = [
     day: "23",
     month: "AUG",
     year: "2025",
-    picture: "/pic4.jpg",
+    picture: "/pic34.jpg",
     title:
       "Preparing for a Healthy Pregnancy: What Every Expecting Mother Should Know",
     paragraph1:
@@ -117,7 +122,7 @@ const blog = [
     day: "11",
     month: "JUN",
     year: "2016",
-    picture: "/pic3.jpg",
+    picture: "/pic41.jpg",
     title: "Why Regular Health Screenings Could Save Your Life",
     paragraph1:
       "Many serious conditions — like high blood pressure, diabetes, and certain cancers — develop silently. Health screenings help detect them before symptoms appear.",
@@ -151,43 +156,43 @@ const contactInformation = [
 const gallery = [
   {
     id: 1,
-    picture: "/pic9.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic30.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 2,
-    picture: "/pic1.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic31.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 3,
-    picture: "/pic2.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic35.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 4,
-    picture: "/pic4.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic33.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 5,
-    picture: "/pic6.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic32.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 6,
-    picture: "/pic2.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic36.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 7,
-    picture: "/pic12.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic37.jpg",
+    caption: "[Picture description]",
   },
   {
     id: 8,
-    picture: "/pic13.jpg",
-    caption: "Youth empowerment program at Gboko Benue state.",
+    picture: "/pic39.jpg",
+    caption: "[Picture description]",
   },
 ];
 
