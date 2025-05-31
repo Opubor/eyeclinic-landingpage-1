@@ -9,6 +9,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Blog from "@/components/Blog";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
+import WhatsappButton from "@/components/WhatsappButton";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <Blog />
 
       <Footer />
+
+      <WhatsappButton />
     </div>
   );
 }
