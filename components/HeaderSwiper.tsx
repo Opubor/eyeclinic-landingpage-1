@@ -40,7 +40,7 @@ function HeaderSwiper() {
     <div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <div className="bg-[linear-gradient(to_right_top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/pic39.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
+          <div className="bg-[url('/pic42.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
             <div
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
@@ -121,7 +121,7 @@ function HeaderSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[linear-gradient(to_right_top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/pic40.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
+          <div className="bg-[url('/pic43.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
             <div
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
@@ -202,7 +202,7 @@ function HeaderSwiper() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-[linear-gradient(to_right_top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/pic41.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
+          <div className="bg-[url('/pic44.jpg')] bg-center bg-cover lg:min-h-screen w-full flex flex-col justify-start items-start pt-36 lg:pt-56 pb-8 lg:pb-0">
             <div
               className="px-2 lg:px-12 xl:px-36 flex flex-col justify-start items-start w-full"
               data-aos="fade-left"
