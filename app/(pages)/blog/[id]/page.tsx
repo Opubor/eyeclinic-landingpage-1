@@ -45,7 +45,7 @@ function Page({ params }: PageProps) {
         </div>
 
         <div className="w-full lg:w-4/12 mt-16">
-          <h1 className="text-center text-xl font-bold tracking-tighter pb-4 underline">
+          <h1 className="text-center text-xl font-bold tracking-tighter pb-4 underline text-black">
             OTHER POSTS
           </h1>
           <div className="grid grid-cols-1 gap-12 lg:gap-4">
