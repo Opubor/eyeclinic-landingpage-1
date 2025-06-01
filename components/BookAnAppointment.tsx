@@ -10,7 +10,7 @@ function BookAnAppointment() {
       <div className="w-full lg:w-7/12 h-auto lg:h-96 bg-white rounded-2xl shadow-lg shadow-gray-300 flex flex-col lg:flex-row justify-between items-center gap-4 p-4">
         <div className="bg-[url('/pic38.jpg')] w-full lg:w-6/12 h-44 lg:h-full bg-center bg-cover rounded-2xl"></div>
         <div className="w-full lg:w-6/12">
-          <h1 className="flex justify-start items-center gap-2 font-semibold text-lg pb-4">
+          <h1 className="flex justify-start items-center gap-2 font-semibold text-lg pb-4 text-black">
             <FaRegCalendarAlt />
             Book an Appointment
           </h1>
@@ -44,7 +44,7 @@ function BookAnAppointment() {
             <FaRegCalendarCheck className="text-xl text-blue" />
           </div>
           <div>
-            <h1 className="text-sm font-semibold">Appointment</h1>
+            <h1 className="text-sm font-semibold text-black">Appointment</h1>
             <p className="text-xs text-gray-600">
               Book Appointment anytime, anywhere
             </p>

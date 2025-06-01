@@ -18,10 +18,10 @@ function Gallery() {
   return (
     <div id="gallery" className="py-16">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-center uppercase border-b-2 border-b-black text-sm px-2">
+        <h1 className="text-center uppercase border-b-2 border-b-black text-sm px-2 text-black">
           Gallery
         </h1>
-        <p className="text-center text-lg lg:text-2xl pt-4 font-bold tracking-tighter mb-4">
+        <p className="text-center text-lg lg:text-2xl pt-4 font-bold tracking-tighter mb-4 text-black">
           A glimpse into our care, facilities, and the people who make it all
           possible.
         </p>

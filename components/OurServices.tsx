@@ -16,10 +16,10 @@ function OurServices() {
       id="our_services"
       className="px-2 lg:px-12 xl:px-32 py-8 lg:py-16 scroll-mt-20 bg-white"
     >
-      <h1 className="uppercase border-l-2 border-l-black text-sm px-2">
+      <h1 className="uppercase border-l-2 border-l-black text-sm px-2 text-black">
         Our Medical Services
       </h1>
-      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter">
+      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter text-black">
         Explore the care and expertise we offer at every stage of your health
         journey.
       </p>

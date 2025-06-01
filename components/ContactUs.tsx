@@ -10,10 +10,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
 function ContactUs() {
   return (
     <div id="contact_us" className="py-8 px-2 lg:px-12 xl:px-36 scroll-mt-20">
-      <h1 className="uppercase border-l-2 border-l-black text-sm px-2">
+      <h1 className="uppercase border-l-2 border-l-black text-sm px-2 text-black">
         Contact Us
       </h1>
-      <p className="text-2xl pt-4 font-bold tracking-tighter">
+      <p className="text-2xl pt-4 font-bold tracking-tighter text-black">
         Have a question or need support? Get in touch with our team today.
       </p>
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4 pt-4 lg:pt-16">
@@ -21,7 +21,7 @@ function ContactUs() {
           <Link
             href={`mailto:${contactInformation?.at(0)?.email!}`}
             target="blank"
-            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4"
+            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4 text-black"
           >
             <MdOutlineMailOutline />
             {contactInformation?.at(0)?.email}
@@ -29,7 +29,7 @@ function ContactUs() {
           <Link
             href={`tel:${contactInformation?.at(0)?.phone1!}`}
             target="blank"
-            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4"
+            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4 text-black"
           >
             <IoCallOutline />
             {contactInformation?.at(0)?.phone1}
@@ -37,28 +37,28 @@ function ContactUs() {
           <Link
             href={`tel:${contactInformation?.at(0)?.phone2!}`}
             target="blank"
-            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4"
+            className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4 text-black"
           >
             <IoCallOutline />
             {contactInformation?.at(0)?.phone2}
           </Link>
-          <p className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4">
+          <p className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4 text-black">
             <IoLocationOutline />
             {contactInformation?.at(0)?.address}
           </p>
-          <p className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4">
+          <p className="flex justify-start items-center gap-1 text-xs lg:text-base pt-4 text-black">
             <CiClock2 />
             {contactInformation?.at(0)?.openingHours}
           </p>
           <div className="mt-8 flex justify-start items-center gap-4">
             <Link href={contactInformation?.at(0)?.facebook!} target="blank">
-              <FaFacebook className="text-xl" />
+              <FaFacebook className="text-xl text-black" />
             </Link>
             <Link href={contactInformation?.at(0)?.twitter!} target="blank">
-              <FaSquareXTwitter className="text-xl" />
+              <FaSquareXTwitter className="text-xl text-black" />
             </Link>
             <Link href={contactInformation?.at(0)?.instagram!} target="blank">
-              <FaInstagramSquare className="text-xl" />
+              <FaInstagramSquare className="text-xl text-black" />
             </Link>
           </div>
         </div>

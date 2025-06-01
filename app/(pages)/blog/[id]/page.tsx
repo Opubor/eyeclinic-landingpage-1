@@ -14,20 +14,20 @@ function Page({ params }: PageProps) {
   return (
     <div>
       <div className="px-2 lg:px-12 xl:px-32 mb-16">
-        <h1 className="uppercase border-l-2 border-l-black text-sm px-2">
+        <h1 className="uppercase border-l-2 border-l-black text-sm px-2 text-black">
           Blog
         </h1>
-        <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter">
+        <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter text-black">
           Health tips, medical insights, and wellness advice — all in one place.
         </p>
       </div>
       <div className="px-2 lg:px-16 xl:px-32 mt-8 flex flex-col lg:flex-row justify-between items-start gap-12">
         <div className="w-full lg:w-8/12">
-          <h1 className="italic text-xl lg:text-2xl font-bold tracking-tighter uppercase">
+          <h1 className="italic text-xl lg:text-2xl font-bold tracking-tighter uppercase text-black">
             {currentPost?.title}
           </h1>
 
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-700">
             {currentPost?.day} {currentPost?.month} {currentPost?.year}
           </p>
           <div
@@ -37,11 +37,11 @@ function Page({ params }: PageProps) {
             className={`w-full h-44 lg:h-56 bg-cover bg-center mt-6`}
           ></div>
 
-          <p className="text-sm mt-8">{currentPost?.paragraph1}</p>
-          <p className="text-sm mt-8">{currentPost?.paragraph2}</p>
-          <p className="text-sm mt-8">{currentPost?.paragraph3}</p>
-          <p className="text-sm mt-8">{currentPost?.paragraph4}</p>
-          <p className="text-sm mt-8">{currentPost?.paragraph5}</p>
+          <p className="text-sm mt-8 text-black">{currentPost?.paragraph1}</p>
+          <p className="text-sm mt-8 text-black">{currentPost?.paragraph2}</p>
+          <p className="text-sm mt-8 text-black">{currentPost?.paragraph3}</p>
+          <p className="text-sm mt-8 text-black">{currentPost?.paragraph4}</p>
+          <p className="text-sm mt-8 text-black">{currentPost?.paragraph5}</p>
         </div>
 
         <div className="w-full lg:w-4/12 mt-16">
@@ -77,7 +77,7 @@ function Page({ params }: PageProps) {
                         </p>
                         <Link
                           href={`/blog/${data?.id}`}
-                          className="bg-white px-5 py-3 text-wine text-xs rounded-full shadow-lg shadow-gray-300 border"
+                          className="bg-white text-black px-5 py-3 text-wine text-xs rounded-full shadow-lg shadow-gray-300 border"
                         >
                           Read More...
                         </Link>

@@ -14,8 +14,10 @@ function Blog() {
       id="blog"
       className="px-2 lg:px-12 xl:px-32 py-16 scroll-mt-20 bg-white"
     >
-      <h1 className="uppercase border-l-2 border-l-black text-sm px-2">Blog</h1>
-      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter">
+      <h1 className="uppercase border-l-2 border-l-black text-sm px-2 text-black">
+        Blog
+      </h1>
+      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter text-black">
         Health tips, medical insights, and wellness advice — all in one place.
       </p>
 
@@ -42,7 +44,7 @@ function Blog() {
               </div>
 
               <div className="w-10/12 pr-3">
-                <h1 className="font-bold text-sm lg:text-md uppercase">
+                <h1 className="font-bold text-sm lg:text-md uppercase text-black">
                   {data?.title}
                 </h1>
                 <p className="text-sm text-gray-700 pt-2 pb-4 truncate">
@@ -50,7 +52,7 @@ function Blog() {
                 </p>
                 <Link
                   href={`/blog/${data?.id}`}
-                  className="bg-white hover:bg-darkblue hover:text-white px-5 py-3 text-wine text-xs rounded-full shadow-lg shadow-gray-300 border"
+                  className="bg-white text-black hover:bg-darkblue hover:text-white px-5 py-3 text-wine text-xs rounded-full shadow-lg shadow-gray-300 border"
                 >
                   Read More...
                 </Link>

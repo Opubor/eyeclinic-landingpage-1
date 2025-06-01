@@ -19,10 +19,10 @@ import "swiper/css/scrollbar";
 function Staffs() {
   return (
     <div className="px-2 lg:px-12 xl:px-32 py-16">
-      <h1 className="uppercase border-l-2 border-l-black text-sm px-2">
+      <h1 className="uppercase border-l-2 border-l-black text-sm px-2 text-black">
         Meet Our Expert Medical Team
       </h1>
-      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter pb-8">
+      <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter pb-8 text-black">
         Qualified. Compassionate. Dedicated to your health.
       </p>
       <Swiper
