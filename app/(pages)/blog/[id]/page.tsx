@@ -69,7 +69,7 @@ function Page({ params }: PageProps) {
                         </h1>
                       </div>
                       <div>
-                        <h1 className="font-bold text-sm lg:text-md uppercase">
+                        <h1 className="font-bold text-sm lg:text-md uppercase text-black">
                           {data?.title}
                         </h1>
                         <p className="text-sm text-gray-700 pt-2 pb-4 w-72 truncate">
