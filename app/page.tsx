@@ -13,7 +13,7 @@ import WhatsappButton from "@/components/WhatsappButton";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden bg-white">
       <Navbar />
 
       <HeaderSwiper />

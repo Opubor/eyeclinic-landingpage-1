@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div
       id="about_us"
-      className="px-2 lg:px-12 xl:px-32 py-16 bg-gray-50 flex flex-col lg:flex-row justify-between items-center gap-6 scroll-mt-20"
+      className="px-2 lg:px-12 xl:px-32 py-16 bg-gray-50 flex flex-col lg:flex-row justify-between items-center gap-6 scroll-mt-20 text-black"
     >
       <div className="relative bg-[url('/pic12.jpg')] bg-center bg-cover w-full lg:w-5/12 h-96 rounded-xl flex justify-center">
         {/* <div className="absolute backdrop-blur-lg w-full bg-white/40 flex justify-center items-center py-4 mt-4 px-2">

@@ -19,7 +19,7 @@ function Navbar() {
           alt="logo"
           className="w-12 h-12"
         />
-        <span className="text-lg lg:text-xl font-extrabold tracking-tighter">
+        <span className="text-lg lg:text-xl font-extrabold tracking-tighter text-black">
           {hospitalName}
         </span>
       </Link>

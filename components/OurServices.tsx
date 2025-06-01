@@ -14,7 +14,7 @@ function OurServices() {
   return (
     <div
       id="our_services"
-      className="px-2 lg:px-12 xl:px-32 py-8 lg:py-16 scroll-mt-20"
+      className="px-2 lg:px-12 xl:px-32 py-8 lg:py-16 scroll-mt-20 bg-white"
     >
       <h1 className="uppercase border-l-2 border-l-black text-sm px-2">
         Our Medical Services
