@@ -26,7 +26,7 @@ function WhyChooseUs() {
           Book Appointment
         </Link>
       </div>
-      <div className="w-full lg:w-6/12 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
+      <div className="w-full lg:w-6/12 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 text-black">
         <div className="bg-white rounded-md p-4 flex flex-col justify-center items-center">
           <div className="flex justify-center p-6 rounded-full bg-white border-2 border-blue">
             <CiSquareCheck className="text-blue text-4xl" />
