@@ -10,7 +10,10 @@ function Blog() {
     AOS.init({ duration: 600 });
   }, []);
   return (
-    <div id="blog" className="px-2 lg:px-12 xl:px-32 py-16 scroll-mt-20">
+    <div
+      id="blog"
+      className="px-2 lg:px-12 xl:px-32 py-16 scroll-mt-20 bg-white"
+    >
       <h1 className="uppercase border-l-2 border-l-black text-sm px-2">Blog</h1>
       <p className="text-lg lg:text-2xl pt-4 font-bold tracking-tighter">
         Health tips, medical insights, and wellness advice — all in one place.
